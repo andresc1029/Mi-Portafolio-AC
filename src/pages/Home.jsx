@@ -16,18 +16,16 @@ function Home() {
           <h1>Backend Developer</h1>
 
           <p>
-            Cuento con experiencia práctica implementando arquitecturas limpias,
-            mecanismos de autenticación seguros (JWT/Hashing) y manipulación de
-            datos estructurados. Cuento con bases sólidas en redes,
-            comunicaciones e infraestructura (<u>Cisco</u>,{" "}
-            <u>Windows Server</u> y<u>Active Directory</u>), así como
-            experiencia en análisis y visualización de datos con <u>Power BI</u>{" "}
-            y procesamiento de datos con
-            <u>Databricks</u>, lo que me permite abordar el desarrollo de
-            software desde una perspectiva integral de seguridad, eficiencia y
-            escalabilidad. Actualmente cursando 7.º semestre de Ingeniería en
-            Desarrollo de Software.
-          </p>
+  Cuento con experiencia práctica implementando <u>arquitecturas limpias</u>,
+  mecanismos de autenticación seguros (<u>JWT</u>/<u>Hashing</u>) y
+  manipulación de datos estructurados. Cuento con bases sólidas en redes,
+  comunicaciones e infraestructura (<u>Cisco</u>, <u>Windows Server</u> y
+  <u> Active Directory</u>), así como experiencia en <u>Power BI</u> y
+  <u> Databricks</u>, lo que me permite abordar el desarrollo de software
+  desde una perspectiva integral de <u>seguridad</u>, <u>eficiencia</u> y
+  <u> escalabilidad</u>. Actualmente cursando 7.º semestre de Ingeniería en
+  Desarrollo de Software.
+</p>
 
           <div className="buttons">
             <button
