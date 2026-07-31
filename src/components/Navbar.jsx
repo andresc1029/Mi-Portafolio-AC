@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <header>
       <nav>
-        <h2>Kevin Andres Cuesta Caicedo</h2>
+        <h2>Mi Portafolio</h2>
 
         <ul>
           <li>

@@ -1,7 +1,7 @@
 import "../App.css";
 import KevinPhoto from "../assets/ImagenMe.png";
 
-import ImgDesarrolloWeb from "../assets/imagenes/imagenWeb.png"; 
+import ImgDesarrolloWeb from "../assets/imagenes/imagenWeb.png";
 import ImgRedes from "../assets/imagenes/Redes.png";
 import ImgSistemas from "../assets/imagenes/imagesLinux.png";
 import { Link } from "react-router-dom";
@@ -19,10 +19,13 @@ function Home() {
             Cuento con experiencia práctica implementando arquitecturas limpias,
             mecanismos de autenticación seguros (JWT/Hashing) y manipulación de
             datos estructurados. Cuento con bases sólidas en redes,
-            comunicaciones e infraestructura (tecnologías Cisco, Windows Server
-            y Active Directory), lo que permite abordar el desarrollo de
+            comunicaciones e infraestructura (<u>Cisco</u>,{" "}
+            <u>Windows Server</u> y<u>Active Directory</u>), así como
+            experiencia en análisis y visualización de datos con <u>Power BI</u>{" "}
+            y procesamiento de datos con
+            <u>Databricks</u>, lo que me permite abordar el desarrollo de
             software desde una perspectiva integral de seguridad, eficiencia y
-            escalabilidad. Actualmente cursando 7.o semestre de Ingeniería en
+            escalabilidad. Actualmente cursando 7.º semestre de Ingeniería en
             Desarrollo de Software.
           </p>
 
@@ -31,14 +34,12 @@ function Home() {
               className="btnPrimary"
               onClick={() =>
                 window.open(
-                  "/HvMe/Hoja de Vida de Kevin Andres Cuesta Caicedo.pdf"
+                  "/HvMe/Hoja de Vida de Kevin Andres Cuesta Caicedo.pdf",
                 )
               }
             >
               Descargar CV
             </button>
-
-          
           </div>
         </div>
 
