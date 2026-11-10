@@ -3,7 +3,6 @@ import './Redes.css';
 const Redes = () => {
   return (
     <div className="layout-claro">
-      {/* 1. HERO SUPERIOR CON FONDO AZUL CIELO Y ONDA */}
       <header className="hero-cielo">
         <div className="hero-content">
           <span className="badge-redes">Infraestructura & Servidores</span>
@@ -14,7 +13,6 @@ const Redes = () => {
           </p>
         </div>
         
-        {/* Onda divisora SVG */}
         <div className="wave-divider">
           <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
             <path 
@@ -25,14 +23,12 @@ const Redes = () => {
         </div>
       </header>
 
-      {/* 2. CONTENIDO PRINCIPAL EN DOS COLUMNAS (Estilo Josh Comeau) */}
+   
       <main className="main-content">
         <div className="content-grid">
           
-          {/* COLUMNA IZQUIERDA: Artículos / Servicios Desplegados */}
           <section className="feed-section">
             
-            {/* Topología Cisco */}
             <article className="post-card">
               <h4 className="section-label">TOPOLOGÍA Y REDES</h4>
               <h2>Enrutamiento y Segmentación (Cisco)</h2>
@@ -48,7 +44,6 @@ const Redes = () => {
               </ul>
             </article>
 
-            {/* Active Directory & DNS */}
             <article className="post-card">
               <h4 className="section-label">DIRECTORIO ACTIVO</h4>
               <h2>Active Directory & DNS</h2>
@@ -58,7 +53,6 @@ const Redes = () => {
               </p>
             </article>
 
-            {/* DHCP & IIS */}
             <article className="post-card">
               <h4 className="section-label">SERVICIOS WEB Y RED</h4>
               <h2>Servidor DHCP & Web Server (IIS)</h2>
@@ -68,7 +62,6 @@ const Redes = () => {
               </p>
             </article>
 
-            {/* Mail Server */}
             <article className="post-card">
               <h4 className="section-label">COMUNICACIÓN</h4>
               <h2>Servidor de Correo Local</h2>
@@ -78,7 +71,6 @@ const Redes = () => {
               </p>
             </article>
 
-            {/* Bloque de Descarga integrado */}
             <div className="cta-documentacion">
               <h3>¿Quieres ver el proceso detallado?</h3>
               <p>Descarga la documentación técnica completa con capturas de pantalla y el paso a paso.</p>
@@ -90,7 +82,6 @@ const Redes = () => {
 
           </section>
 
-          {/* COLUMNA DERECHA: Sidebar con Categorías y Tecnologías */}
           <aside className="sidebar">
             <div className="widget">
               <h4 className="section-label">TECNOLOGÍAS CLAVE</h4>

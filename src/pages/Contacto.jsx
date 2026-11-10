@@ -33,7 +33,7 @@ function Contacto() {
           <h1>¿Hablamos de un proyecto?</h1>
           <p>
             Estoy abierto a oportunidades profesionales, colaboraciones en desarrollo backend 
-            o proyectos de infraestructura y bases de datos. ¡Ponte en contacto conmigo!
+            o proyectos de infraestructura y bases de datos.
           </p>
         </div>
 

@@ -68,7 +68,7 @@ function Home() {
 
         <Link to="/sistemas" className="card">
           <div className="card-header">
-            <h3>CiberSeguridad</h3>
+            <h3>Bases de datos</h3>
           </div>
           <div className="card-image-container">
             <img src={ImgSistemas} alt="Sistemas e Infraestructura" />

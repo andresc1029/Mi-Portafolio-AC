@@ -69,11 +69,11 @@ function DesarrolloWeb() {
               <h4 className="section-label">CLIENTE / FRONTEND</h4>
               <h2>Web App interactiva</h2>
               <ul className="feature-list" style={{ marginTop: '1rem' }}>
-                <li>✓ Login de usuarios autenticado mediante tokens JWT.</li>
-                <li>✓ Validación en tiempo real de respuestas matemáticas.</li>
-                <li>✓ Generación aleatoria de ejercicios consumiendo la API REST.</li>
-                <li>✓ Persistencia del estado en el navegador vía LocalStorage.</li>
-                <li>✓ Interfaz totalmente responsiva y feedback inmediato (Correcto / Incorrecto).</li>
+                <li>Login de usuarios autenticado mediante tokens JWT</li>
+                <li>Validación en tiempo real de respuestas matemáticas</li>
+                <li>Generación aleatoria de ejercicios consumiendo la API REST</li>
+                <li>Persistencia del estado en el navegador vía LocalStorage</li>
+                <li>Interfaz totalmente responsiva y feedback inmediato (Correcto / Incorrecto)</li>
               </ul>
             </article>
 
@@ -82,10 +82,10 @@ function DesarrolloWeb() {
               <h4 className="section-label">BACKEND / API REST</h4>
               <h2>Gestión de Usuarios y Seguridad</h2>
               <ul className="feature-list" style={{ marginTop: '1rem' }}>
-                <li>✓ <strong>Gestión de Usuarios:</strong> Registro con validación de duplicados, roles (Admin/Usuario) y desactivación de cuentas.</li>
-                <li>✓ <strong>Recuperación:</strong> Envío de correos SMTP automatizados con MailKit.</li>
-                <li>✓ <strong>Seguridad:</strong> Autenticación JWT, contraseñas hasheadas con BCrypt y políticas CORS configuradas.</li>
-                <li>✓ <strong>Rachas:</strong> Seguimiento en tiempo real del progreso de aprendizaje del estudiante.</li>
+                <li><strong>Gestión de Usuarios</strong> Registro con validación de duplicados, roles (Admin/Usuario) y desactivación de cuentas.</li>
+                <li><strong>Recuperación:</strong> Envío de correos SMTP automatizados con MailKit</li>
+                <li><strong>Seguridad:</strong> Autenticación JWT, contraseñas hasheadas con BCrypt y políticas CORS configuradas</li>
+                <li><strong>Rachas:</strong> Seguimiento en tiempo real del progreso de aprendizaje del estudiant</li>
               </ul>
             </article>
 
