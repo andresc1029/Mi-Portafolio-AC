@@ -38,9 +38,9 @@ const Redes = () => {
                 base mediante enrutamiento estático/dinámico y segmentación para garantizar la comunicación fluida entre el servidor y los clientes.
               </p>
               <ul className="feature-list">
-                <li>✓ Configuración de interfaces y rutas.</li>
-                <li>✓ Control de tráfico base para el entorno corporativo.</li>
-                <li>✓ Implementación de adaptadores puente (Bridge).</li>
+                <li>Configuración de interfaces y rutas.</li>
+                <li>Control de tráfico base para el entorno corporativo.</li>
+                <li>Implementación de adaptadores puente (Bridge).</li>
               </ul>
             </article>
 

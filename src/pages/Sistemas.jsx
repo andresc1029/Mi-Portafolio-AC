@@ -1,13 +1,11 @@
 import "../App.css";
 import "./Sistemas.css";
 
-// ⚠️ Asegúrate de que las rutas e imágenes existan en /src/assets/
 import ModeloEstrellaImg from "../assets/ModeloEstrella.PNG"; 
 
 function Sistemas() {
   return (
     <div className="layout-claro">
-      {/* 1. HERO SUPERIOR FONDO AZUL Y SEPARACION */}
       <header className="hero-cielo">
         <div className="hero-content">
           <span className="badge-redes">Análisis y Procesamiento de Datos</span>
@@ -19,24 +17,24 @@ function Sistemas() {
           </p>
 
           <div className="project-buttons" style={{ justifyContent: 'center', marginTop: '1.5rem' }}>
-            <a
-              href="/presentacion-ecommerce.pdf" // Asegúrate de colocar tu PDF en public/
-              download="Presentacion_Ecommerce_Databricks.pdf"
-              className="btnSecondary"
-              style={{
-                display: 'inline-flex',
-                alignItems: 'center',
-                gap: '0.5rem',
-                textDecoration: 'none',
-                cursor: 'pointer'
-              }}
-            >
-              📥 Descargar Presentación / Informe PDF
+          <a
+            href={`${import.meta.env.BASE_URL}documentos/Gold.pbix`}
+            download="Gold.pbix"
+            className="btnSecondary"
+            style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '0.5rem',
+              textDecoration: 'none',
+              cursor: 'pointer'
+            }}
+          >
+               Descargar Presentación / Informe PDF
             </a>
           </div>
         </div>
 
-        {/* Onda SVG divisora */}
+       
         <div className="wave-divider">
           <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
             <path 
@@ -47,14 +45,13 @@ function Sistemas() {
         </div>
       </header>
 
-      {/* CONTENIDO PRINCIPAL EN DOS COLUMNAS */}
       <main className="main-content">
         <div className="content-grid">
           
-          {/* SECCIÓN IZQUIERDA */}
+          {/* seccion izquierda  */}
           <section className="feed-section">
             
-            {/* Capas Medallion */}
+            {/*  Medallion */}
             <article className="post-card">
               <h4 className="section-label">ARQUITECTURA DE DATOS</h4>
               <h2>Pipeline Medallion (Bronze, Silver, Gold)</h2>
@@ -105,7 +102,7 @@ function Sistemas() {
               </p>
             </article>
 
-            {/* Imagen del Modelo Estrella */}
+            {/* Imag Modelo Estrella */}
             <article className="post-card" style={{ borderBottom: 'none' }}>
               <h4 className="section-label">DIAGRAMA RELACIONAL</h4>
               <h2>Esquema del Modelo Estrella</h2>
@@ -123,10 +120,10 @@ function Sistemas() {
 
           </section>
 
-          {/* SIDEBAR DERECHA */}
+          {/* derecha*/}
           <aside className="sidebar">
             
-            {/* Widget de Stack */}
+          
             <div className="widget card-section" style={{ padding: '1.5rem', background: '#f8fafc', borderRadius: '16px', border: '1px solid #e2e8f0' }}>
               <h4 className="section-label" style={{ marginBottom: '1rem' }}>TECNOLOGÍAS CLAVE</h4>
               <div className="tags-container">
